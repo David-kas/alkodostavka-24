@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/fix-site-seo.mjs && node scripts/fix-contact-links.mjs && node scripts/protect-primary-middleware.mjs",
-    "generate:seo": "node scripts/generate-seo-pages.mjs && node scripts/fix-site-seo.mjs && node scripts/fix-contact-links.mjs && node scripts/protect-primary-middleware.mjs",
-    "fix:seo": "node scripts/fix-site-seo.mjs && node scripts/protect-primary-middleware.mjs",
+    "build": "node scripts/fix-site-seo.mjs && node scripts/fix-contact-links.mjs",
+    "generate:seo": "node scripts/generate-seo-pages.mjs && node scripts/fix-site-seo.mjs && node scripts/fix-contact-links.mjs",
+    "fix:seo": "node scripts/fix-site-seo.mjs",
     "patch:cart": "node scripts/patch-header-cart.mjs",
     "fix:cart": "node scripts/fix-cart-duplicates.mjs",
     "sync:catalog": "node scripts/sync-catalog-bokaluna.mjs",
@@ -21,7 +21,7 @@
     "export:catalog": "node scripts/export-catalog-json.mjs",
     "catalog:render": "node scripts/render-catalog-html.mjs",
     "seed:blob": "node scripts/seed-blob-catalog.mjs",
-    "perf": "npm run build:assets && node scripts/fix-site-seo.mjs && node scripts/fix-contact-links.mjs && node scripts/protect-primary-middleware.mjs && node scripts/patch-performance.mjs",
+    "perf": "npm run build:assets && node scripts/fix-site-seo.mjs && node scripts/fix-contact-links.mjs && node scripts/patch-performance.mjs",
     "site:audit": "node scripts/site-audit.mjs"
   },
   "devDependencies": {
