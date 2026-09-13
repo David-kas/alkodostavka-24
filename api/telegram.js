@@ -17,7 +17,7 @@ export default async function handler(req, res) {
       hasChatId: Boolean(chatId),
       hint: configured
         ? undefined
-        : 'Задайте TELEGRAM_BOT_TOKEN и TELEGRAM_CHAT_ID в Vercel → Settings → Environment Variables и сделайте Redeploy, либо положите config/telegram.json в проект.',
+        : 'Задайте TELEGRAM_BOT_TOKEN и TELEGRAM_CHAT_ID в Vercel → Settings → Environment Variables и сделайте Redeploy.',
     });
   }
 
