@@ -1,40 +1,7 @@
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const CONFIG_PATHS = [
-  path.join(__dirname, '..', 'config', 'telegram.json'),
-  path.join(process.cwd(), 'config', 'telegram.json'),
-];
-
-function loadFileConfig() {
-  for (const configPath of CONFIG_PATHS) {
-    try {
-      return JSON.parse(fs.readFileSync(configPath, 'utf8'));
-    } catch {
-      // try next path
-    }
-  }
-  return {};
-}
-
 export function getTelegramCredentials() {
-  const fileConfig = loadFileConfig();
-
-  const token =
-    process.env.TELEGRAM_BOT_TOKEN?.trim() ||
-    process.env.BOT_TOKEN?.trim() ||
-    fileConfig.TELEGRAM_BOT_TOKEN ||
-    '';
-
-  const chatId =
-    process.env.TELEGRAM_CHAT_ID?.trim() ||
-    process.env.CHAT_ID?.trim() ||
-    fileConfig.TELEGRAM_CHAT_ID ||
-    '';
-
-  return { token: token || '', chatId: chatId || '' };
+  const token = process.env.TELEGRAM_BOT_TOKEN?.trim() || process.env.BOT_TOKEN?.trim() || '';
+  const chatId = process.env.TELEGRAM_CHAT_ID?.trim() || process.env.CHAT_ID?.trim() || '';
+  return { token, chatId };
 }
 
 function sanitizeForTelegram(text) {
@@ -60,10 +27,7 @@ export function buildOrderMessage({ name, phone, comment, address, cart, source,
   let message = `📩 ${safeType} — АЛКОдоставка\n\n`;
   message += `👤 Имя: ${safeName}\n`;
   message += `📞 Телефон: ${safePhone}\n`;
-
-  if (safeAddress && safeAddress !== '—') {
-    message += `📍 Адрес: ${safeAddress}\n`;
-  }
+  if (safeAddress && safeAddress !== '—') message += `📍 Адрес: ${safeAddress}\n`;
 
   if (items.length) {
     message += `\n📦 Состав заказа:\n`;
@@ -78,54 +42,29 @@ export function buildOrderMessage({ name, phone, comment, address, cart, source,
     message += `\n💰 Итого: ${formatRub(total)}\n`;
   }
 
-  if (safeComment && safeComment !== '—') {
-    message += `\n💬 Комментарий: ${safeComment}\n`;
-  }
-
+  if (safeComment && safeComment !== '—') message += `\n💬 Комментарий: ${safeComment}\n`;
   message += `\n🕐 Время: ${new Date().toLocaleString('ru-RU', { timeZone: 'Europe/Moscow' })}\n`;
   message += `📍 Источник: ${safeSource}`;
-
-  if (pageUrl) {
-    message += `\nСтраница: ${safePage}`;
-  }
-
+  if (pageUrl) message += `\nСтраница: ${safePage}`;
   return message;
 }
 
 export async function sendTelegramMessage(text) {
   const { token, chatId } = getTelegramCredentials();
-
   if (!token || !chatId) {
-    return {
-      ok: false,
-      error: 'Telegram не настроен: задайте TELEGRAM_BOT_TOKEN и TELEGRAM_CHAT_ID',
-      code: 'TELEGRAM_NOT_CONFIGURED',
-    };
+    return { ok: false, error: 'Telegram не настроен: задайте TELEGRAM_BOT_TOKEN и TELEGRAM_CHAT_ID', code: 'TELEGRAM_NOT_CONFIGURED' };
   }
 
-  const url = `https://api.telegram.org/bot${token}/sendMessage`;
-
   try {
-    const response = await fetch(url, {
+    const response = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        chat_id: chatId,
-        text,
-        disable_web_page_preview: true,
-      }),
+      body: JSON.stringify({ chat_id: chatId, text, disable_web_page_preview: true }),
     });
-
     const data = await response.json();
-    if (data.ok) {
-      return { ok: true };
-    }
+    if (data.ok) return { ok: true };
     return { ok: false, error: data.description || 'Telegram API error', code: 'TELEGRAM_API' };
   } catch (err) {
-    return {
-      ok: false,
-      error: err.message || 'Не удалось связаться с Telegram',
-      code: 'TELEGRAM_NETWORK',
-    };
+    return { ok: false, error: err.message || 'Не удалось связаться с Telegram', code: 'TELEGRAM_NETWORK' };
   }
 }
