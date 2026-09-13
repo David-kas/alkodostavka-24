@@ -14,11 +14,11 @@ const CALL_DISPLAY = '+7 (925) 121-99-72';
 const WA_PHONE = '79626289777';
 
 const OLD_DOMAINS = [
-  /https?:\/\/alkodastavka\.vercel\.app/gi,
-  /https?:\/\/alkodostavka24\.online/gi,
-  /https?:\/\/www\.alkodostavka24\.online/gi,
-  /https?:\/\/dostavka-alkogolya-24\.vercel\.app/gi,
-  /alkodostavka24\.online/gi,
+  /https?:\/\/alko-dostavka24.vercel.app/gi,
+  /https?:\/\/alko-dostavka24.vercel.app/gi,
+  /https?:\/\/alko-dostavka24.vercel.app/gi,
+  /https?:\/\/alko-dostavka24.vercel.app/gi,
+  /alko-dostavka24.vercel.app/gi,
 ];
 
 function walk(dir, acc = []) {
