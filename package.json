@@ -3,8 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/fix-site-seo.mjs && node scripts/fix-contact-links.mjs",
-    "generate:seo": "node scripts/generate-seo-pages.mjs && node scripts/fix-site-seo.mjs && node scripts/fix-contact-links.mjs",
+    "generate:seo": "node scripts/generate-seo-pages.mjs",
     "fix:seo": "node scripts/fix-site-seo.mjs",
     "patch:cart": "node scripts/patch-header-cart.mjs",
     "fix:cart": "node scripts/fix-cart-duplicates.mjs",
@@ -13,7 +12,7 @@
     "dev": "node scripts/dev-server.mjs",
     "enhance:yandex": "node scripts/enhance-yandex-seo.mjs",
     "apply:headers": "node scripts/apply-manual-headers.mjs",
-    "seo:all": "npm run generate:seo && node scripts/enhance-yandex-seo.mjs && node scripts/apply-manual-headers.mjs",
+    "seo:all": "node scripts/generate-seo-pages.mjs && node scripts/fix-site-seo.mjs && node scripts/enhance-yandex-seo.mjs && node scripts/apply-manual-headers.mjs",
     "seo:audit": "node scripts/seo-full-audit.mjs",
     "fix:schema": "node scripts/fix-schema.mjs",
     "build:assets": "node scripts/build-assets.mjs",
@@ -21,7 +20,7 @@
     "export:catalog": "node scripts/export-catalog-json.mjs",
     "catalog:render": "node scripts/render-catalog-html.mjs",
     "seed:blob": "node scripts/seed-blob-catalog.mjs",
-    "perf": "npm run build:assets && node scripts/fix-site-seo.mjs && node scripts/fix-contact-links.mjs && node scripts/patch-performance.mjs",
+    "perf": "npm run build:assets && npm run patch:perf",
     "site:audit": "node scripts/site-audit.mjs"
   },
   "devDependencies": {
