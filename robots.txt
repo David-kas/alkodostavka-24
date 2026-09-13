@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alkodostavka24.vercel.app/sitemap.xml
-Host: https://alkodostavka24.vercel.app
+Sitemap: https://alko-dostavka24.vercel.app/sitemap.xml
+Host: https://alko-dostavka24.vercel.app

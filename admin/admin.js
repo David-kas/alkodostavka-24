@@ -254,7 +254,7 @@
     try {
       if (!isLocalDev() && serverStatus && !serverStatus.canSave) {
         throw new Error(
-          'На alkodostavka24.online сохранение не работает без Blob Storage. Запустите npm run dev и откройте http://127.0.0.1:3000/admin/'
+          'На https://alko-dostavka24.vercel.app сохранение не работает без Blob Storage. Запустите npm run dev и откройте http://127.0.0.1:3000/admin/'
         );
       }
 

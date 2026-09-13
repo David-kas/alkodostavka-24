@@ -11,7 +11,7 @@ import { ONECLICK_MODAL_HTML } from './oneclick-modal-html.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
-const BASE = 'https://alkodastavka.vercel.app';
+const BASE = 'https://alko-dostavka24.vercel.app';
 
 const CALL_TEL = '+79251219972';
 const CALL_DISPLAY = '+7 (925) 121-99-72';

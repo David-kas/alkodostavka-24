@@ -48,26 +48,26 @@ function fixDomains(c) {
 
 function fixPhones(c) {
   let out = c;
-  out = out.replace(/tel:\+79626289777/g, `tel:${CALL_TEL}`);
-  out = out.replace(/tel:\+79997863967/g, `tel:${CALL_TEL}`);
+  out = out.replace(/tel:\+7 (925) 121-99-72/g, `tel:${CALL_TEL}`);
+  out = out.replace(/tel:\+79251219972/g, `tel:${CALL_TEL}`);
   out = out.replace(/\+7 \(999\) 786-39-67/g, CALL_DISPLAY);
-  out = out.replace(/\+79997863967/g, CALL_TEL);
+  out = out.replace(/\+79251219972/g, CALL_TEL);
   out = out.replace(/wa\.me\/79997863967/g, `wa.me/${WA_PHONE}`);
   out = out.replace(/wa\.me\/79648489888/g, `wa.me/${WA_PHONE}`);
   out = out.replace(/whatsapp:\/\/send\?phone=79997863967/g, `whatsapp://send?phone=${WA_PHONE}`);
   out = out.replace(/whatsapp:\/\/send\?phone=79648489888/g, `whatsapp://send?phone=${WA_PHONE}`);
-  out = out.replace(/"telephone":\s*"\+79626289777"/g, `"telephone": "${CALL_TEL}"`);
-  out = out.replace(/"telephone":\s*"\+79997863967"/g, `"telephone": "${CALL_TEL}"`);
+  out = out.replace(/"telephone":\s*"\+7 (925) 121-99-72"/g, `"telephone": "${CALL_TEL}"`);
+  out = out.replace(/"telephone":\s*"\+79251219972"/g, `"telephone": "${CALL_TEL}"`);
 
-  out = out.replace(/<a href="tel:\+79997863967">\+79626289777<\/a>/g, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
-  out = out.replace(/<a href="tel:\+79997863967">79626289777<\/a>/g, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
-  out = out.replace(/<a href="tel:\+79997863967">\+79997863967<\/a>/g, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
-  out = out.replace(/<a href="tel:\+79997863967">Позвонить<\/a>/gi, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
+  out = out.replace(/<a href="tel:\+79251219972">\+7 (925) 121-99-72<\/a>/g, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
+  out = out.replace(/<a href="tel:\+79251219972">79626289777<\/a>/g, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
+  out = out.replace(/<a href="tel:\+79251219972">\+79251219972<\/a>/g, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
+  out = out.replace(/<a href="tel:\+79251219972">Позвонить<\/a>/gi, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
 
-  out = out.replace(/ \+79626289777\. 18/g, '. 18');
-  out = out.replace(/\. \+79626289777\./g, '.');
-  out = out.replace(/ \+79626289777/g, ` ${CALL_DISPLAY}`);
-  out = out.replace(/\+79626289777/g, (match, offset, str) => {
+  out = out.replace(/ \+7 (925) 121-99-72\. 18/g, '. 18');
+  out = out.replace(/\. \+7 (925) 121-99-72\./g, '.');
+  out = out.replace(/ \+7 (925) 121-99-72/g, ` ${CALL_DISPLAY}`);
+  out = out.replace(/\+7 (925) 121-99-72/g, (match, offset, str) => {
     const before = str.slice(Math.max(0, offset - 20), offset);
     if (/wa\.me\/$/.test(before) || /phone=/.test(before)) return match;
     return CALL_DISPLAY;
