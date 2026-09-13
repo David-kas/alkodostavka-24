@@ -4,9 +4,8 @@ export const config = {
 
 const NEW_ORIGIN = 'https://alkodastavka.vercel.app';
 const OLD_HOSTS = new Set([
-  'alkodastavka.vercel.app',
-  'alkodastavka.vercel.app',
-  'alkodastavka.vercel.app',
+  'alkodostavka24.vercel.app',
+  'alkodostavka24.online',
 ]);
 
 export default function middleware(request) {
