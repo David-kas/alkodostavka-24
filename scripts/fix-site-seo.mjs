@@ -1,5 +1,5 @@
 /**
- * SEO / домен / телефоны: звонки +79251219972, WhatsApp 79626289777.
+ * SEO / домен / телефоны: звонки +79251219972, WhatsApp 79626289777 (без текста WA на странице).
  * Запуск: node scripts/fix-site-seo.mjs
  */
 import fs from 'fs';
@@ -63,16 +63,39 @@ function fixPhones(c) {
     `<div class="header-phone-promo">\n      <span class="badge-247">24/7</span>\n      <a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>\n      <span class="phone-sub">`,
   );
 
+  out = out.replace(
+    /<div class="mobile-callbar-right">\s*<a href="tel:\+79997863967" class="mobile-callbar-cta">Позвонить<\/a>\s*<\/div>/g,
+    `<div class="mobile-callbar-right">\n      <a href="tel:${CALL_TEL}" class="mobile-callbar-tel"><span class="mobile-callbar-icon" aria-hidden="true">☎</span><span class="mobile-callbar-num">${CALL_DISPLAY}</span></a>\n    </div>`,
+  );
+
+  out = out.replace(
+    /<div class="sticky-cta-bar" role="navigation" aria-label="Быстрый заказ">\s*<a href="#feedback-form"/g,
+    `<div class="sticky-cta-bar" role="navigation" aria-label="Быстрый заказ">\n        <a href="tel:${CALL_TEL}" class="sticky-cta-item sticky-cta-call">Позвонить</a>\n        <a href="#feedback-form"`,
+  );
+
+  if (out.includes('class="footer"') && !out.includes('footer-phone')) {
+    out = out.replace(
+      /(<footer class="footer">\s*<div class="container">\s*<p>©[^<]*<\/p>)/,
+      `$1\n    <p class="footer-phone">Телефон: <a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a></p>`,
+    );
+  }
+
   out = out.replace(/<a href="tel:\+79997863967">\+79626289777<\/a>/g, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
   out = out.replace(/<a href="tel:\+79997863967">79626289777<\/a>/g, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
   out = out.replace(/<a href="tel:\+79997863967">\+79997863967<\/a>/g, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
-  out = out.replace(/<a href="tel:\+79997863967">Позвонить<\/a>/gi, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
+  out = out.replace(/<a href="tel:\+79997863967">Позвонить<\/a>/g, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
+  out = out.replace(/<a href="tel:\+79997863967">позвонить<\/a>/g, `<a href="tel:${CALL_TEL}">${CALL_DISPLAY}</a>`);
 
   out = out.replace(/ ☎ \+79626289777/g, '');
   out = out.replace(/ \+79626289777\. 18/g, '. 18');
   out = out.replace(/\. \+79626289777\./g, '.');
   out = out.replace(/ \+79626289777/g, ` ${CALL_DISPLAY}`);
-  out = out.replace(/\+79626289777/g, CALL_DISPLAY);
+  out = out.replace(/\+79626289777/g, (match, offset, str) => {
+    const before = str.slice(Math.max(0, offset - 20), offset);
+    if (/wa\.me\/$/.test(before) || /phone=/.test(before)) return match;
+    return CALL_DISPLAY;
+  });
+
   out = out.replace(/ — \| /g, ' | ');
   out = out.replace(/\. \./g, '.');
   out = out.replace(/24\/7,\./g, '24/7.');
@@ -96,7 +119,7 @@ function fixRobots() {
 const files = walk(ROOT);
 let changed = 0;
 for (const fp of files) {
-  if (fp.endsWith(`${path.sep}scripts${path.sep}fix-site-seo.mjs`)) continue;
+  if (fp.includes(`${path.sep}scripts${path.sep}fix-site-seo.mjs`)) continue;
   const raw = fs.readFileSync(fp, 'utf8');
   const next = fixContent(raw);
   if (next !== raw) {
