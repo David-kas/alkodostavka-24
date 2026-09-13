@@ -5,7 +5,6 @@ export const config = {
 const NEW_ORIGIN = 'https://alkodostavka24.vercel.app';
 const OLD_HOSTS = new Set([
   'alkodastavka.vercel.app',
-  'alkodastavka.vercel.app',
   'alkodostavka24.online',
 ]);
 
