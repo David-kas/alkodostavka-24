@@ -1,0 +1,44 @@
+name: Fix primary domain references
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  fix-domain:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Replace old public domains in text files
+        shell: bash
+        run: |
+          set -euo pipefail
+          files=$(git grep -Il -e 'alkodastavka.vercel.app' -e 'alkodostavka24.online' -- ':!middleware.js' ':!vercel.json' ':!.github/workflows/fix-primary-domain.yml' || true)
+          if [ -n "$files" ]; then
+            while IFS= read -r file; do
+              sed -i \
+                -e 's#alkodastavka\.vercel\.app#alkodostavka24.vercel.app#g' \
+                -e 's#alkodostavka24\.online#alkodostavka24.vercel.app#g' \
+                "$file"
+            done <<< "$files"
+          fi
+
+      - name: Commit replacements
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet; then
+            echo 'No domain replacements needed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'fix: make alkodostavka24.vercel.app the primary domain'
+          git push
