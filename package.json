@@ -21,7 +21,8 @@
     "catalog:render": "node scripts/render-catalog-html.mjs",
     "seed:blob": "node scripts/seed-blob-catalog.mjs",
     "perf": "npm run build:assets && npm run patch:perf",
-    "site:audit": "node scripts/site-audit.mjs"
+    "site:audit": "node scripts/site-audit.mjs",
+    "build": "node scripts/fix-site-seo.mjs"
   },
   "devDependencies": {
     "clean-css": "^5.3.3",
