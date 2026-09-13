@@ -1,0 +1,57 @@
+# alkodastavka.vercel.app — боты и мобильные: доступ; ПК: 403
+# Apache 2.4+ (mod_rewrite, mod_expires, mod_headers)
+
+# --- Кеш статики (PageSpeed) ---
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 1 month"
+ExpiresByType text/css "access plus 1 year"
+ExpiresByType application/javascript "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType application/manifest+json "access plus 1 week"
+ExpiresByType text/xml "access plus 1 day"
+</IfModule>
+
+<IfModule mod_headers.c>
+<FilesMatch "\.(css|js|webp|jpg|jpeg|png|gif|svg|woff2?|ico)$">
+Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
+<FilesMatch "\.(html|php)$">
+Header set Cache-Control "no-cache"
+</FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# Служебные папки — не отдавать на хостинг
+RewriteRule ^(scripts|data|lib|node_modules|\.git)(/|$) - [F,L]
+
+# SEO и верификация — всегда доступны
+RewriteRule ^robots\.txt$ - [L]
+RewriteRule ^sitemap\.xml$ - [L]
+RewriteRule ^yandex_[a-z0-9]+\.html$ - [L]
+
+# Статика, API, изображения — для индексации и работы форм
+RewriteRule ^(api|images|photo|product|assets)(/|$) - [L]
+RewriteRule ^(style\.css|script\.js|site-cart\.js|cart\.js|products\.js|favicon\.svg|site\.webmanifest)$ - [L]
+
+# Все поисковые боты: Google, Яндекс, Bing и др.
+RewriteCond %{HTTP_USER_AGENT} (googlebot|google-inspectiontool|googleother|adsbot-google|mediapartners-google|feedfetcher-google|storebot-google|yandex|bingbot|bingpreview|msnbot|adidxbot|baiduspider|duckduckbot|slurp|applebot|facebot|facebookexternalhit|twitterbot|linkedinbot|pinterestbot|telegrambot|whatsapp|semrushbot|ahrefsbot|mj12bot|dotbot|rogerbot|petalbot|mail\.ru|sogou|exabot|seznambot|ia_archiver|archive\.org|gptbot|claudebot|perplexitybot|bytespider) [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} (bot|crawl|spider|slurp|archiver|preview|validator) [NC]
+RewriteRule ^ - [L]
+
+# Мобильные устройства
+RewriteCond %{HTTP_USER_AGENT} (android|iphone|ipad|ipod|blackberry|iemobile|opera mini|mobile|windows phone|webos) [NC]
+RewriteRule ^ - [L]
+
+# ПК — запрет
+RewriteRule ^ - [F,L]
+</IfModule>
+
+ErrorDocument 403 "<!DOCTYPE html><html lang=\"ru\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Доступ ограничен</title><meta name=\"robots\" content=\"noindex,nofollow\"></head><body><h1>Доступ с ПК ограничен</h1><p>Сайт доступен с мобильного устройства и для поисковых систем.</p></body></html>"

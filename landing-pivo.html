@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Микро-лендинг: пиво с доставкой</title>
+  <meta name="description" content="Лендинг под категорию пива: быстрый выбор, срочная доставка напитков и оформление онлайн.">
+  <meta property="og:title" content="Микро-лендинг: пиво с доставкой">
+  <meta property="og:description" content="Категорийная страница для трафика и заявок по пиву.">
+  <link rel="canonical" href="https://alkodastavka.vercel.app/landing-pivo.html">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="category" data-category="pivo">
+  <header class="site-header"><div class="container header-inner"><a class="logo" href="index.html">АлкоДоставка</a><nav class="top-links"><a href="pivo.html">Полный каталог</a><a href="city-kazan.html">Казань</a><a href="#" class="js-cart-toggle">Корзина <span class="cart-count">0</span></a></nav></div></header>
+  <main class="container"><section class="hero"><h1>Пиво с доставкой: микро-лендинг категории</h1><p>Страница под быстрый выбор и локальные запросы: заказать напитки онлайн, получить подтверждение и оформить адрес.</p></section><section class="section"><h2>Популярное пиво</h2><div id="category-products" class="product-grid"></div></section></main>
+  <div class="cart-panel" id="cart-panel"><div class="cart-header"><h3>Корзина</h3><button class="close-cart" id="close-cart" type="button">×</button></div><div class="cart-items" id="cart-items"></div><div class="cart-total" id="cart-total">Итого: 0 ₽</div><form class="cart-form" id="order-form"><input type="text" id="order-name" placeholder="Ваше имя" required><input type="tel" id="order-phone" placeholder="Телефон" required><input type="text" id="order-address" placeholder="Адрес доставки" required><textarea id="order-comment" placeholder="Комментарий"></textarea><button id="submit-order" type="submit">Оформить заказ</button></form></div><div class="overlay" id="overlay"></div>
+  <script defer src="products.js"></script><script defer src="cart.js"></script>
+</body>
+</html>

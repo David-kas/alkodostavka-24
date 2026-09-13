@@ -1,0 +1,37 @@
+ErrorDocument 403 /pc-blocked.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# SSL / REG.RU certificate check
+RewriteCond %{REQUEST_URI} ^/\.well-known/ [NC]
+RewriteRule ^ - [L]
+
+# Telegram on Apache/PHP (REG.RU has no Node.js)
+RewriteRule ^api/telegram/?$ api/telegram.php [L,QSA]
+RewriteRule ^api/send-telegram/?$ api/telegram.php [L,QSA]
+
+# Hide tokens
+RewriteRule ^api/config\.local\.php$ - [F,L]
+RewriteRule ^config/ - [F,L]
+
+# Favicon, robots, 403 page
+RewriteCond %{REQUEST_URI} ^/(pc-blocked\.html|robots\.txt|sitemap\.xml|llms\.txt|favicon\.svg|favicon\.ico|favicon-.*\.png|apple-touch-icon|site\.webmanifest) [NC]
+RewriteRule ^ - [L]
+
+# API always allowed (forms)
+RewriteCond %{REQUEST_URI} ^/api/ [NC]
+RewriteRule ^ - [L]
+
+# All robots / crawlers
+RewriteCond %{HTTP_USER_AGENT} (googlebot|google-inspection|adsbot-google|mediapartners-google|googleother|yandex|bingbot|bingpreview|baiduspider|duckduckbot|slurp|facebookexternalhit|facebookcatalog|twitterbot|applebot|ahrefsbot|semrushbot|mj12bot|dotbot|yeti|naverbot|ia_archiver|rogerbot|exabot|whatsapp|telegrambot|discordbot|linkedinbot|pinterest|embedly|vkshare|mail\.ru|bot|spider|crawler|scanner|checker|validator) [NC]
+RewriteRule ^ - [L]
+
+# Mobile users
+RewriteCond %{HTTP_USER_AGENT} (android|iphone|ipad|ipod|blackberry|iemobile|opera\ mini|mobile|webos|silk) [NC]
+RewriteRule ^ - [L]
+
+# Desktop users blocked
+RewriteRule ^ - [F,L]
+</IfModule>

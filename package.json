@@ -1,0 +1,33 @@
+{
+  "name": "alko-dostavka-static",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:seo": "node scripts/generate-seo-pages.mjs",
+    "fix:seo": "node scripts/fix-site-seo.mjs",
+    "patch:cart": "node scripts/patch-header-cart.mjs",
+    "fix:cart": "node scripts/fix-cart-duplicates.mjs",
+    "sync:catalog": "node scripts/sync-catalog-bokaluna.mjs",
+    "patch:oneclick": "node scripts/patch-oneclick-order.mjs",
+    "dev": "node scripts/dev-server.mjs",
+    "enhance:yandex": "node scripts/enhance-yandex-seo.mjs",
+    "apply:headers": "node scripts/apply-manual-headers.mjs",
+    "seo:all": "node scripts/generate-seo-pages.mjs && node scripts/fix-site-seo.mjs && node scripts/enhance-yandex-seo.mjs && node scripts/apply-manual-headers.mjs",
+    "seo:audit": "node scripts/seo-full-audit.mjs",
+    "fix:schema": "node scripts/fix-schema.mjs",
+    "build:assets": "node scripts/build-assets.mjs",
+    "patch:perf": "node scripts/patch-performance.mjs",
+    "export:catalog": "node scripts/export-catalog-json.mjs",
+    "catalog:render": "node scripts/render-catalog-html.mjs",
+    "seed:blob": "node scripts/seed-blob-catalog.mjs",
+    "perf": "npm run build:assets && npm run patch:perf",
+    "site:audit": "node scripts/site-audit.mjs"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "terser": "^5.48.0"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.5.0"
+  }
+}

@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^telegram$ telegram.php [L,QSA]
+RewriteRule ^send-telegram$ telegram.php [L,QSA]
+RewriteRule ^config\.local\.php$ - [F,L]
+</IfModule>

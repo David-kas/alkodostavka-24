@@ -1,0 +1,1477 @@
+{
+  "success": true,
+  "version": 3,
+  "updatedAt": "2026-07-02T04:04:53.496Z",
+  "products": [
+    {
+      "id": "водка-absolut-0-5-л-00f858",
+      "name": "Водка «ABSOLUT» 0.5 л",
+      "category": "strong",
+      "price": 2590,
+      "image": "images/absolut-vodka.jpg",
+      "alt": "ABSOLUT 0.5л водка доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-absolut-0-7-л-aa95ce",
+      "name": "Водка «ABSOLUT» 0.7 л",
+      "category": "strong",
+      "price": 3390,
+      "image": "images/absolut-vodka.jpg",
+      "alt": "ABSOLUT 0.7л водка доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-beluga-noble-1-л-55b370",
+      "name": "Водка «BELUGA» Noble 1 л",
+      "category": "strong",
+      "price": 3590,
+      "image": "images/beluga.jpg",
+      "alt": "BELUGA водка доставка Москва",
+      "desc": "Объём 1 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-beluga-transatlantic-racing-0-7-л-0e3e85",
+      "name": "Водка «BELUGA» Transatlantic Racing 0.7 л",
+      "category": "strong",
+      "price": 2990,
+      "image": "images/beluga.jpg",
+      "alt": "BELUGA 0.7л водка доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-beluga-allure-0-7-л-025333",
+      "name": "Водка «Beluga» Allure 0.7 л",
+      "category": "strong",
+      "price": 3590,
+      "image": "images/beluga.jpg",
+      "alt": "Beluga 0.7л водка доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-finlandia-classic-0-7-л-5e0ac4",
+      "name": "Водка «FINLANDIA» Classic 0.7 л",
+      "category": "strong",
+      "price": 2890,
+      "image": "images/finlandia.jpg",
+      "alt": "FINLANDIA 0.7л водка доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-finlandia-клюква-0-7-л-44451d",
+      "name": "Водка «FINLANDIA» клюква 0.7 л",
+      "category": "strong",
+      "price": 2890,
+      "image": "images/finlandia.jpg",
+      "alt": "FINLANDIA 0.7л водка доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-беленькая-0-5-л-63dce0",
+      "name": "Водка «Беленькая» 0.5 л",
+      "category": "strong",
+      "price": 990,
+      "image": "images/absolut-vodka.jpg",
+      "alt": "Беленькая 0.5л водка доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-березка-люкс-0-5-л-8482cd",
+      "name": "Водка «Березка» Люкс 0.5 л",
+      "category": "strong",
+      "price": 990,
+      "image": "images/berezka.jpg",
+      "alt": "Березка 0.5л водка доставка Москва",
+      "desc": "Мягкая классическая водка.",
+      "inStock": true
+    },
+    {
+      "id": "водка-пять-озер-0-5-л-4b0901",
+      "name": "Водка «Пять озер» 0.5 л",
+      "category": "strong",
+      "price": 990,
+      "image": "images/5ozerprem.jpg",
+      "alt": "Пять озер 0.5л водка доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-пять-озер-премиум-0-5-л-328637",
+      "name": "Водка «Пять озер» Премиум 0.5 л",
+      "category": "strong",
+      "price": 990,
+      "image": "images/5ozerprem.jpg",
+      "alt": "Пять озер 0.5л водка доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-пять-озер-0-7-л-5bf142",
+      "name": "Водка «Пять озер» 0.7 л",
+      "category": "strong",
+      "price": 1390,
+      "image": "images/5ozer.jpg",
+      "alt": "Пять озер 0.7л водка доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-пять-озер-1-л-81070a",
+      "name": "Водка «Пять озер» 1 л",
+      "category": "strong",
+      "price": 1690,
+      "image": "images/5ozer.jpg",
+      "alt": "Пять озер водка доставка Москва",
+      "desc": "Объём 1 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-русский-стандарт-0-5-л-423ea9",
+      "name": "Водка «Русский стандарт» 0.5 л",
+      "category": "strong",
+      "price": 1490,
+      "image": "images/russian-standart.jpg",
+      "alt": "Русский стандарт 0.5л водка доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-русский-стандарт-platinum-0-7-л-b5b4ae",
+      "name": "Водка «Русский стандарт» Platinum 0.7 л",
+      "category": "strong",
+      "price": 1890,
+      "image": "images/russian-standart.jpg",
+      "alt": "Русский стандарт 0.7л водка доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-русский-стандарт-1-л-d033de",
+      "name": "Водка «Русский стандарт» 1 л",
+      "category": "strong",
+      "price": 1990,
+      "image": "images/russian-standart.jpg",
+      "alt": "Русский стандарт водка доставка Москва",
+      "desc": "Объём 1 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-талка-люкс-0-5-л-1e9e3f",
+      "name": "Водка «Талка» Люкс 0.5 л",
+      "category": "strong",
+      "price": 990,
+      "image": "images/%D1%82%D0%B0%D0%BB%D0%BA%D0%B0.jpg",
+      "alt": "Талка 0.5л водка доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-хортица-платинум-0-5-л-3473b7",
+      "name": "Водка «Хортица» Платинум 0.5 л",
+      "category": "strong",
+      "price": 1190,
+      "image": "images/khortytsia.jpg",
+      "alt": "Хортица 0.5л водка доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-хортица-мягкая-0-5-л-6ca3c9",
+      "name": "Водка «Хортица» Мягкая 0.5 л",
+      "category": "strong",
+      "price": 1190,
+      "image": "images/khortytsia.jpg",
+      "alt": "Хортица 0.5л водка доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-хортица-платинум-0-7-л-2b45ad",
+      "name": "Водка «Хортица» Платинум 0.7 л",
+      "category": "strong",
+      "price": 1490,
+      "image": "images/khortytsia.jpg",
+      "alt": "Хортица 0.7л водка доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-nemiroff-медовая-с-перцем-0-5-л-6cc68c",
+      "name": "Водка «Nemiroff» Медовая с перцем 0.5 л",
+      "category": "strong",
+      "price": 1190,
+      "image": "images/nemiroff.jpg",
+      "alt": "Nemiroff 0.5л водка доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-мягков-silver-0-5-л-399385",
+      "name": "Водка «Мягков» Silver 0.5 л",
+      "category": "strong",
+      "price": 990,
+      "image": "images/%D0%BC%D1%8F%D0%B3%D0%BA%D0%BE%D0%B2.jpg",
+      "alt": "Мягков 0.5л водка доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "водка-зеленая-марка-кедровая-0-5-л-8ed328",
+      "name": "Водка «Зеленая марка» Кедровая 0.5 л",
+      "category": "strong",
+      "price": 990,
+      "image": "images/%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0%D1%8F%D0%BC%D0%B0%D1%80%D0%BA%D0%B0.jpg",
+      "alt": "Зеленая марка 0.5л водка доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-ballantines-0-5-л-563460",
+      "name": "Виски «Ballantine's» 0.5 л",
+      "category": "strong",
+      "price": 3390,
+      "image": "images/ballantines.webp",
+      "alt": "Ballantine's 0.5л виски доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-ballantines-0-7-л-e1f6a0",
+      "name": "Виски «Ballantine's» 0.7 л",
+      "category": "strong",
+      "price": 3990,
+      "image": "images/ballantines.webp",
+      "alt": "Ballantine's 0.7л виски доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-ballantines-1-л-969177",
+      "name": "Виски «Ballantine's» 1 л",
+      "category": "strong",
+      "price": 4390,
+      "image": "images/ballantines.webp",
+      "alt": "Ballantine's виски доставка Москва",
+      "desc": "Объём 1 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-bells-0-5-л-70f15f",
+      "name": "Виски «Bell's» 0.5 л",
+      "category": "strong",
+      "price": 2390,
+      "image": "images/bells-whisky.png",
+      "alt": "Bell's 0.5л виски доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-bells-0-7-л-e92d18",
+      "name": "Виски «Bell's» 0.7 л",
+      "category": "strong",
+      "price": 2590,
+      "image": "images/bells-whisky.png",
+      "alt": "Bell's 0.7л виски доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-bells-1-л-85a511",
+      "name": "Виски «Bell's» 1 л",
+      "category": "strong",
+      "price": 2990,
+      "image": "images/bells-whisky.png",
+      "alt": "Bell's виски доставка Москва",
+      "desc": "Объём 1 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-chivas-regal-12-yo-0-5-л-168530",
+      "name": "Виски «Chivas Regal» 12 yo 0.5 л",
+      "category": "strong",
+      "price": 8190,
+      "image": "images/Chivas%20Regal%2012%20yo.jpg",
+      "alt": "Chivas Regal 0.5л виски доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-chivas-regal-12-yo-0-7-л-f9b3fb",
+      "name": "Виски «Chivas Regal» 12 yo 0.7 л",
+      "category": "strong",
+      "price": 9190,
+      "image": "images/Chivas%20Regal%2012%20yo.jpg",
+      "alt": "Chivas Regal 0.7л виски доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-glenfiddich-0-5-л-d6d0f0",
+      "name": "Виски «Glenfiddich» 0.5 л",
+      "category": "strong",
+      "price": 7990,
+      "image": "images/glenfiddich-12.jpg",
+      "alt": "Glenfiddich 0.5л виски доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-jack-daniels-old-no-7-0-5-л-1e83af",
+      "name": "Виски «Jack Daniel's» Old No.7 0.5 л",
+      "category": "strong",
+      "price": 3890,
+      "image": "images/%D0%B2%D0%B8%D1%81%D0%BA%D0%B8%20%D0%B4%D0%B6%D0%B5%D0%BA.jpg",
+      "alt": "Jack Daniel's 0.5л виски доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-jack-daniels-old-no-7-0-7-л-8e83a0",
+      "name": "Виски «Jack Daniel's» Old No.7 0.7 л",
+      "category": "strong",
+      "price": 4590,
+      "image": "images/%D0%B2%D0%B8%D1%81%D0%BA%D0%B8%20%D0%B4%D0%B6%D0%B5%D0%BA.jpg",
+      "alt": "Jack Daniel's 0.7л виски доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-jameson-irish-0-5-л-82dd0a",
+      "name": "Виски «Jameson» Irish 0.5 л",
+      "category": "strong",
+      "price": 4290,
+      "image": "images/%D0%B4%D0%B6%D0%B5%D0%B9%D0%BC%D1%81%D0%BE%D0%BD.jpg",
+      "alt": "Jameson 0.5л виски доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-jameson-irish-0-7-л-cc3cce",
+      "name": "Виски «Jameson» Irish 0.7 л",
+      "category": "strong",
+      "price": 4990,
+      "image": "images/%D0%B4%D0%B6%D0%B5%D0%B9%D0%BC%D1%81%D0%BE%D0%BD.jpg",
+      "alt": "Jameson 0.7л виски доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-johnnie-walker-black-label-0-7-л-33576b",
+      "name": "Виски «Johnnie Walker» Black Label 0.7 л",
+      "category": "strong",
+      "price": 5590,
+      "image": "images/blacklabel.jpg",
+      "alt": "Johnnie Walker 0.7л виски доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-macallan-12-лет-0-7-л-1dfd3e",
+      "name": "Виски «Macallan» 12 лет 0.7 л",
+      "category": "strong",
+      "price": 17990,
+      "image": "images/glenfiddich-12.jpg",
+      "alt": "Macallan 0.7л виски доставка Москва",
+      "desc": "Объём 12 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-william-lawsons-0-5-л-114df9",
+      "name": "Виски «William Lawson's» 0.5 л",
+      "category": "strong",
+      "price": 1890,
+      "image": "images/ballantines.webp",
+      "alt": "William Lawson's 0.5л виски доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "виски-william-lawsons-0-7-л-7880a0",
+      "name": "Виски «William Lawson's» 0.7 л",
+      "category": "strong",
+      "price": 2290,
+      "image": "images/ballantines.webp",
+      "alt": "William Lawson's 0.7л виски доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "коньяк-remy-martin-vs-0-7-л-906fd8",
+      "name": "Коньяк «Remy Martin» VS 0.7 л",
+      "category": "strong",
+      "price": 10390,
+      "image": "images/remy-martin-vs.jpg",
+      "alt": "Remy Martin 0.7л коньяк доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "коньяк-hennessy-vs-0-7-л-cdf8e3",
+      "name": "Коньяк «Hennessy» VS 0.7 л",
+      "category": "strong",
+      "price": 8990,
+      "image": "images/%D0%9A%D0%BE%D0%BD%D1%8C%D1%8F%D0%BAHennessyVSOP.jpg",
+      "alt": "Hennessy 0.7л коньяк доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "коньяк-hennessy-vsop-0-5-л-c34aa0",
+      "name": "Коньяк «Hennessy» VSOP 0.5 л",
+      "category": "strong",
+      "price": 8990,
+      "image": "images/%D0%9A%D0%BE%D0%BD%D1%8C%D1%8F%D0%BAHennessyVSOP.jpg",
+      "alt": "Hennessy 0.5л коньяк доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "коньяк-арарат-5-звёзд-0-5-л-80b443",
+      "name": "Коньяк «Арарат» 5 звёзд 0.5 л",
+      "category": "strong",
+      "price": 2490,
+      "image": "images/%D0%B0%D1%80%D0%B0%D1%80%D0%B0%D1%82.jpeg",
+      "alt": "Арарат 0.5л коньяк доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "коньяк-арарат-5-звёзд-0-7-л-770307",
+      "name": "Коньяк «Арарат» 5 звёзд 0.7 л",
+      "category": "strong",
+      "price": 3290,
+      "image": "images/%D0%B0%D1%80%D0%B0%D1%80%D0%B0%D1%82.jpeg",
+      "alt": "Арарат 0.7л коньяк доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "коньяк-лезгинка-0-5-л-592bbe",
+      "name": "Коньяк «Лезгинка» 0.5 л",
+      "category": "strong",
+      "price": 1790,
+      "image": "images/lezginka.png",
+      "alt": "Лезгинка 0.5л коньяк доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "коньяк-старейшина-5-лет-0-5-л-d780ba",
+      "name": "Коньяк «Старейшина» 5 лет 0.5 л",
+      "category": "strong",
+      "price": 1790,
+      "image": "images/%D1%81%D1%82%D0%B0%D1%80%D0%B5%D0%B9%D1%88%D0%B8%D0%BD%D0%B012.jpg",
+      "alt": "Старейшина 0.5л коньяк доставка Москва",
+      "desc": "Объём 5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "коньяк-старейшина-7-лет-0-5-л-42e4c7",
+      "name": "Коньяк «Старейшина» 7 лет 0.5 л",
+      "category": "strong",
+      "price": 1790,
+      "image": "images/%D1%81%D1%82%D0%B0%D1%80%D0%B5%D0%B9%D1%88%D0%B8%D0%BD%D0%B012.jpg",
+      "alt": "Старейшина 0.5л коньяк доставка Москва",
+      "desc": "Объём 7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "коньяк-старый-кенигсберг-5-летний-0-5-л-6c7a9b",
+      "name": "Коньяк «Старый Кенигсберг» 5-летний 0.5 л",
+      "category": "strong",
+      "price": 1790,
+      "image": "images/kenigsberg-5.png",
+      "alt": "Старый Кенигсберг 0.5л коньяк доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "коньяк-старый-кенигсберг-4-летний-0-5-л-4eca5a",
+      "name": "Коньяк «Старый Кенигсберг» 4-летний 0.5 л",
+      "category": "strong",
+      "price": 1790,
+      "image": "images/kenigsberg-4.png",
+      "alt": "Старый Кенигсберг 0.5л коньяк доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "коньяк-david-iverieli-варцихе-7-лет-0-5-л-786759",
+      "name": "Коньяк David Iverieli «Варцихе» 7 лет 0.5 л",
+      "category": "strong",
+      "price": 1790,
+      "image": "images/lezginka.png",
+      "alt": "Варцихе 0.5л коньяк доставка Москва",
+      "desc": "Объём 7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "джин-beefeater-0-7-л-4d933f",
+      "name": "Джин «Beefeater» 0.7 л",
+      "category": "strong",
+      "price": 3590,
+      "image": "images/becherovka.png",
+      "alt": "Beefeater 0.7л алкоголь доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "джин-bombay-sapphire-0-7-л-9df9cf",
+      "name": "Джин «Bombay Sapphire» 0.7 л",
+      "category": "strong",
+      "price": 3590,
+      "image": "images/cointreau.jpg",
+      "alt": "Bombay Sapphire 0.7л алкоголь доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "джин-gordons-0-7-л-935840",
+      "name": "Джин «Gordon's» 0.7 л",
+      "category": "strong",
+      "price": 3590,
+      "image": "images/becherovka.png",
+      "alt": "Gordon's 0.7л алкоголь доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ром-barcelo-blanco-0-5-л-8e5046",
+      "name": "Ром Barcelo Blanco 0.5 л",
+      "category": "strong",
+      "price": 2590,
+      "image": "images/barcelo-blanco-07.png",
+      "alt": "Ром Barcelo 0.5л алкоголь доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ром-barcelo-blanco-0-7-л-01ecf5",
+      "name": "Ром Barcelo Blanco 0.7 л",
+      "category": "strong",
+      "price": 3190,
+      "image": "images/barcelo-blanco-07.png",
+      "alt": "Ром Barcelo 0.7л алкоголь доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ром-barcelo-blanco-1-л-62a7fb",
+      "name": "Ром Barcelo Blanco 1 л",
+      "category": "strong",
+      "price": 3790,
+      "image": "images/barcelo-blanco-1l.png",
+      "alt": "Ром Barcelo алкоголь доставка Москва",
+      "desc": "Объём 1 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ром-havana-club-anejo-especial-3-года-0-7-л-cc0d80",
+      "name": "Ром Havana Club Anejo Especial 3 года 0.7 л",
+      "category": "strong",
+      "price": 3400,
+      "image": "images/barcelo-blanco-07.png",
+      "alt": "Ром Havana 3г алкоголь доставка Москва",
+      "desc": "Объём 3 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ром-капитан-морган-золотой-0-5-л-b59db2",
+      "name": "Ром «Капитан Морган» Золотой 0.5 л",
+      "category": "strong",
+      "price": 2500,
+      "image": "images/captain-morgan.jpg",
+      "alt": "Капитан Морган 0.5л алкоголь доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ром-капитан-морган-золотой-0-7-л-954059",
+      "name": "Ром «Капитан Морган» Золотой 0.7 л",
+      "category": "strong",
+      "price": 3590,
+      "image": "images/captain-morgan.jpg",
+      "alt": "Капитан Морган 0.7л алкоголь доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "текила-olmeca-0-5-л-1fac6f",
+      "name": "Текила «Olmeca» 0.5 л",
+      "category": "strong",
+      "price": 3490,
+      "image": "images/olmeca.jpg",
+      "alt": "Olmeca 0.5л алкоголь доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "текила-olmeca-0-7-л-f3641f",
+      "name": "Текила «Olmeca» 0.7 л",
+      "category": "strong",
+      "price": 3990,
+      "image": "images/olmeca.jpg",
+      "alt": "Olmeca 0.7л алкоголь доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "текила-sauza-gold-0-5-л-6d07eb",
+      "name": "Текила «Sauza Gold» 0.5 л",
+      "category": "strong",
+      "price": 3490,
+      "image": "images/sauza-gold.jpg",
+      "alt": "Sauza Gold 0.5л алкоголь доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "текила-sauza-gold-0-7-л-22e647",
+      "name": "Текила «Sauza Gold» 0.7 л",
+      "category": "strong",
+      "price": 3990,
+      "image": "images/sauza-gold.jpg",
+      "alt": "Sauza Gold 0.7л алкоголь доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "текила-sauza-silver-0-5-л-e979ec",
+      "name": "Текила «Sauza Silver» 0.5 л",
+      "category": "strong",
+      "price": 3490,
+      "image": "images/sauza-silver.jpg",
+      "alt": "Sauza Silver 0.5л алкоголь доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "текила-sauza-silver-0-7-л-a10e28",
+      "name": "Текила «Sauza Silver» 0.7 л",
+      "category": "strong",
+      "price": 3990,
+      "image": "images/sauza-silver.jpg",
+      "alt": "Sauza Silver 0.7л алкоголь доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ликёр-becherovka-0-7-л-6229a4",
+      "name": "Ликёр «Becherovka» 0.7 л",
+      "category": "strong",
+      "price": 3990,
+      "image": "images/becherovka.png",
+      "alt": "Becherovka 0.7л алкоголь доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ликёр-baileys-0-7-л-2e1971",
+      "name": "Ликёр Baileys 0.7 л",
+      "category": "strong",
+      "price": 3590,
+      "image": "images/baileys.jpg",
+      "alt": "Ликёр Baileys 0.7л алкоголь доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ликёр-sambuca-extra-0-5-л-3a85f8",
+      "name": "Ликёр Sambuca Extra 0.5 л",
+      "category": "strong",
+      "price": 1690,
+      "image": "images/sambuca.jpg",
+      "alt": "Ликёр Sambuca 0.5л алкоголь доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ликёр-cointreau-0-7-л-e8a6f4",
+      "name": "Ликёр Cointreau 0.7 л",
+      "category": "strong",
+      "price": 3990,
+      "image": "images/cointreau.jpg",
+      "alt": "Ликёр Cointreau 0.7л алкоголь доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ликёр-limoncello-0-5-л-4546fd",
+      "name": "Ликёр Limoncello 0.5 л",
+      "category": "strong",
+      "price": 1590,
+      "image": "images/jagermeister.jpg",
+      "alt": "Ликёр Limoncello 0.5л алкоголь доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ликёр-sheridans-0-5-л-bfe4bf",
+      "name": "Ликёр Sheridan's 0.5 л",
+      "category": "strong",
+      "price": 3690,
+      "image": "images/baileys.jpg",
+      "alt": "Ликёр Sheridan's 0.5л алкоголь доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "ликёр-j-germeister-0-7-л-a5367a",
+      "name": "Ликёр Jägermeister 0.7 л",
+      "category": "strong",
+      "price": 3890,
+      "image": "images/jagermeister.jpg",
+      "alt": "Ликёр Jägermeister 0.7л алкоголь доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вилла-франческа-0-75-л-белое-полусладкое-78bbdd",
+      "name": "ВИЛЛА ФРАНЧЕСКА 0.75 л, белое полусладкое",
+      "category": "wine",
+      "price": 1790,
+      "image": "images/villa-francesca-bianco.png",
+      "alt": "ВИЛЛА ФРАНЧЕСКА 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вилла-франческа-0-75-л-белое-сухое-9d9bf2",
+      "name": "ВИЛЛА ФРАНЧЕСКА 0.75 л, белое сухое",
+      "category": "wine",
+      "price": 1790,
+      "image": "images/villa-francesca-bianco.png",
+      "alt": "ВИЛЛА ФРАНЧЕСКА 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вилла-франческа-0-75-л-красное-полусладкое-234c3c",
+      "name": "ВИЛЛА ФРАНЧЕСКА 0.75 л, красное полусладкое",
+      "category": "wine",
+      "price": 1790,
+      "image": "images/villa-francesca-rosso.png",
+      "alt": "ВИЛЛА ФРАНЧЕСКА 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вилла-франческа-0-75-л-красное-сухое-08f18d",
+      "name": "ВИЛЛА ФРАНЧЕСКА 0.75 л, красное сухое",
+      "category": "wine",
+      "price": 1790,
+      "image": "images/villa-francesca-rosso.png",
+      "alt": "ВИЛЛА ФРАНЧЕСКА 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вино-mancura-cabernet-sauvignon-0-7-л-137058",
+      "name": "Вино «Mancura Cabernet Sauvignon» 0.7 л",
+      "category": "wine",
+      "price": 1690,
+      "image": "images/mancura-red.png",
+      "alt": "Mancura Cabernet 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вино-mancura-chardonnay-0-7-л-298d8f",
+      "name": "Вино «Mancura Chardonnay» 0.7 л",
+      "category": "wine",
+      "price": 1690,
+      "image": "images/mancura-chardonnay.png",
+      "alt": "Mancura Chardonnay 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вино-mancura-merlot-0-7-л-f3348a",
+      "name": "Вино «Mancura Merlot» 0.7 л",
+      "category": "wine",
+      "price": 1690,
+      "image": "images/mancura-red.png",
+      "alt": "Mancura Merlot 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вино-mancura-moscato-0-7-л-1ca2e0",
+      "name": "Вино «Mancura Moscato» 0.7 л",
+      "category": "wine",
+      "price": 1790,
+      "image": "images/mancura-moscato.png",
+      "alt": "Mancura Moscato 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вино-mancura-carmenere-0-7-л-211947",
+      "name": "Вино «Mancura Carmenere» 0.7 л",
+      "category": "wine",
+      "price": 1690,
+      "image": "images/mancura-red.png",
+      "alt": "Mancura Carmenere 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вино-petit-chablis-0-7-л-48a0df",
+      "name": "Вино «Petit Chablis» 0.7 л",
+      "category": "wine",
+      "price": 4590,
+      "image": "images/pinot-grigio.png",
+      "alt": "Petit Chablis 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вино-pinot-grigio-0-7-л-b45859",
+      "name": "Вино «Pinot Grigio» 0.7 л",
+      "category": "wine",
+      "price": 1990,
+      "image": "images/pinot-grigio.png",
+      "alt": "Pinot Grigio 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вино-torre-de-rejas-semisweet-0-7-л-84481b",
+      "name": "Вино «Torre De Rejas Semisweet» 0.7 л",
+      "category": "wine",
+      "price": 1690,
+      "image": "images/torre-de-rejas.png",
+      "alt": "Torre De 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вино-музаради-саперави-0-7-л-7454e2",
+      "name": "Вино «Музаради Саперави» 0.7 л",
+      "category": "wine",
+      "price": 1690,
+      "image": "images/muzaradi-saperavi.png",
+      "alt": "Музаради Саперави 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вино-сигнахи-киндзмараули-0-7-л-b03783",
+      "name": "Вино «Сигнахи Киндзмараули» 0.7 л",
+      "category": "wine",
+      "price": 1690,
+      "image": "images/kindzmarauli.png",
+      "alt": "Сигнахи Киндзмараули 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вино-chianti-docg-0-7-л-италия-5899be",
+      "name": "Вино Chianti DOCG 0.7 л (Италия)",
+      "category": "wine",
+      "price": 1890,
+      "image": "images/chianti-docg.png",
+      "alt": "Chianti DOCG 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вермут-cinzano-bianco-0-7-л-051e01",
+      "name": "Вермут «Cinzano Bianco» 0.7 л",
+      "category": "wine",
+      "price": 2190,
+      "image": "images/martini-bianco.jpg",
+      "alt": "Cinzano Bianco 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вермут-cinzano-bianco-1-л-9be102",
+      "name": "Вермут «Cinzano Bianco» 1 л",
+      "category": "wine",
+      "price": 2690,
+      "image": "images/martini-bianco.jpg",
+      "alt": "Cinzano Bianco вино доставка Москва",
+      "desc": "Объём 1 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вермут-martini-bianco-0-5-л-006788",
+      "name": "Вермут «Martini Bianco» 0.5 л",
+      "category": "wine",
+      "price": 1990,
+      "image": "images/martini-bianco.jpg",
+      "alt": "Martini Bianco 0.5л вино доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вермут-martini-bianco-0-7-л-0bcbdb",
+      "name": "Вермут «Martini Bianco» 0.7 л",
+      "category": "wine",
+      "price": 2390,
+      "image": "images/martini-bianco.jpg",
+      "alt": "Martini Bianco 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вермут-martini-bianco-1-л-9bc70f",
+      "name": "Вермут «Martini Bianco» 1 л",
+      "category": "wine",
+      "price": 2790,
+      "image": "images/martini-bianco.jpg",
+      "alt": "Martini Bianco вино доставка Москва",
+      "desc": "Объём 1 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вермут-martini-extra-dry-0-5-л-8bd520",
+      "name": "Вермут «Martini Extra Dry» 0.5 л",
+      "category": "wine",
+      "price": 1990,
+      "image": "images/martini-bianco.jpg",
+      "alt": "Martini Extra 0.5л вино доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вермут-martini-extra-dry-0-7-л-eeaa18",
+      "name": "Вермут «Martini Extra Dry» 0.7 л",
+      "category": "wine",
+      "price": 2390,
+      "image": "images/martini-bianco.jpg",
+      "alt": "Martini Extra 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вермут-martini-extra-dry-1-л-0043ce",
+      "name": "Вермут «Martini Extra Dry» 1 л",
+      "category": "wine",
+      "price": 2790,
+      "image": "images/martini-bianco.jpg",
+      "alt": "Martini Extra вино доставка Москва",
+      "desc": "Объём 1 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вермут-martini-fiero-0-5-л-80dfb2",
+      "name": "Вермут «Martini Fiero» 0.5 л",
+      "category": "wine",
+      "price": 1990,
+      "image": "images/martini-fiero.jpg",
+      "alt": "Martini Fiero 0.5л вино доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вермут-martini-fiero-0-7-л-aa9cc5",
+      "name": "Вермут «Martini Fiero» 0.7 л",
+      "category": "wine",
+      "price": 2290,
+      "image": "images/martini-fiero.jpg",
+      "alt": "Martini Fiero 0.7л вино доставка Москва",
+      "desc": "Объём 0.7 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вермут-martini-fiero-1-л-183f64",
+      "name": "Вермут «Martini Fiero» 1 л",
+      "category": "wine",
+      "price": 2790,
+      "image": "images/martini-fiero.jpg",
+      "alt": "Martini Fiero вино доставка Москва",
+      "desc": "Объём 1 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "вермут-cinzano-bianco-0-5-л-c3ab0b",
+      "name": "Вермут Cinzano Bianco 0.5 л",
+      "category": "wine",
+      "price": 1990,
+      "image": "images/martini-bianco.jpg",
+      "alt": "Вермут Cinzano 0.5л вино доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "игристое-atto-primo-prosecco-0-75-л-a33e76",
+      "name": "Игристое Atto Primo Prosecco 0.75 л",
+      "category": "wine",
+      "price": 1890,
+      "image": "images/atto-primo-prosecco.png",
+      "alt": "Игристое Atto 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "шампанское-gancia-prosecco-0-75-л-76d940",
+      "name": "Шампанское «Gancia Prosecco» 0.75 л",
+      "category": "wine",
+      "price": 2390,
+      "image": "images/gancia-prosecco.jpg",
+      "alt": "Gancia Prosecco 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "шампанское-martini-asti-0-75-л-3fd3a9",
+      "name": "Шампанское «Martini Asti» 0.75 л",
+      "category": "wine",
+      "price": 2590,
+      "image": "images/mondoro-asti.png",
+      "alt": "Martini Asti 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "шампанское-martini-prosecco-0-75-л-77ab84",
+      "name": "Шампанское «Martini Prosecco» 0.75 л",
+      "category": "wine",
+      "price": 2590,
+      "image": "images/martini-prosecco.png",
+      "alt": "Martini Prosecco 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "шампанское-mondoro-asti-0-75-л-a181d2",
+      "name": "Шампанское «Mondoro Asti» 0.75 л",
+      "category": "wine",
+      "price": 2590,
+      "image": "images/mondoro-asti.png",
+      "alt": "Mondoro Asti 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "шампанское-mondoro-prosecco-0-75-л-ab3653",
+      "name": "Шампанское «Mondoro Prosecco» 0.75 л",
+      "category": "wine",
+      "price": 2590,
+      "image": "images/mondoro-prosecco.png",
+      "alt": "Mondoro Prosecco 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "шампанское-riondo-prosecco-0-75-л-51b5cc",
+      "name": "Шампанское «Riondo Prosecco» 0.75 л",
+      "category": "wine",
+      "price": 1990,
+      "image": "images/riondo-prosecco.png",
+      "alt": "Riondo Prosecco 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "шампанское-абрау-дюрсо-брют-0-75-л-77fd2c",
+      "name": "Шампанское «Абрау-Дюрсо» Брют 0.75 л",
+      "category": "wine",
+      "price": 1490,
+      "image": "images/abrau-durso-brut.png",
+      "alt": "Абрау-Дюрсо 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "шампанское-абрау-дюрсо-полусладкое-0-75-л-42d628",
+      "name": "Шампанское «Абрау-Дюрсо» полусладкое 0.75 л",
+      "category": "wine",
+      "price": 1490,
+      "image": "images/abrau-durso-brut.png",
+      "alt": "Абрау-Дюрсо 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "шампанское-абрау-дюрсо-сладкое-0-75-л-881070",
+      "name": "Шампанское «Абрау-Дюрсо» сладкое 0.75 л",
+      "category": "wine",
+      "price": 1490,
+      "image": "images/abrau-durso-brut.png",
+      "alt": "Абрау-Дюрсо 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "шампанское-faldeo-prosecco-0-75-л-257397",
+      "name": "Шампанское Faldeo Prosecco 0.75 л",
+      "category": "wine",
+      "price": 1990,
+      "image": "images/faldeo-prosecco.png",
+      "alt": "Шампанское Faldeo 0.75л вино доставка Москва",
+      "desc": "Объём 0.75 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-1664-blanco-0-5-л-69a2c2",
+      "name": "Пиво 1664 Blanco 0.5 л",
+      "category": "beer",
+      "price": 200,
+      "image": "images/corona.jpg",
+      "alt": "1664 Blanco 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-bud-0-45-л-bacfce",
+      "name": "Пиво Bud 0.45 л",
+      "category": "beer",
+      "price": 150,
+      "image": "images/Budweiser.jpg",
+      "alt": "Bud 0.45л пиво доставка Москва",
+      "desc": "Объём 0.45 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-corona-extra-0-33-л-6cb5cc",
+      "name": "Пиво Corona Extra 0.33 л",
+      "category": "beer",
+      "price": 300,
+      "image": "images/corona.jpg",
+      "alt": "Corona Extra 0.33л пиво доставка Москва",
+      "desc": "Объём 0.33 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-hoegaarden-0-5-л-20c545",
+      "name": "Пиво Hoegaarden 0.5 л",
+      "category": "beer",
+      "price": 250,
+      "image": "images/hugarden.jpg",
+      "alt": "Hoegaarden 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-kozel-светлое-0-45-л-86e699",
+      "name": "Пиво Kozel светлое 0.45 л",
+      "category": "beer",
+      "price": 150,
+      "image": "images/Velkopopovick%C3%BD.jpg",
+      "alt": "Kozel светлое 0.45л пиво доставка Москва",
+      "desc": "Объём 0.45 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-kozel-тёмное-0-5-л-61b799",
+      "name": "Пиво Kozel тёмное 0.5 л",
+      "category": "beer",
+      "price": 150,
+      "image": "images/Velkopopovick%C3%BD.jpg",
+      "alt": "Kozel тёмное 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-kru-ovice-0-45-л-9e8b19",
+      "name": "Пиво Krušovice 0.45 л",
+      "category": "beer",
+      "price": 150,
+      "image": "images/Kru%C5%A1ovice.jpg",
+      "alt": "Krušovice 0.45л пиво доставка Москва",
+      "desc": "Объём 0.45 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-miller-0-5-л-641f5f",
+      "name": "Пиво Miller 0.5 л",
+      "category": "beer",
+      "price": 400,
+      "image": "images/Budweiser.jpg",
+      "alt": "Miller 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-paulaner-weissbier-0-5-л-46ab74",
+      "name": "Пиво Paulaner Weissbier 0.5 л",
+      "category": "beer",
+      "price": 300,
+      "image": "images/guiness.jpg",
+      "alt": "Paulaner Weissbier 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-жигулёвское-0-45-л-18662f",
+      "name": "Пиво «Жигулёвское» 0.45 л",
+      "category": "beer",
+      "price": 150,
+      "image": "images/zhig.jpg",
+      "alt": "Жигулёвское 0.45л пиво доставка Москва",
+      "desc": "Объём 0.45 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-охота-крепкое-8-1-0-45-л-aa22c1",
+      "name": "Пиво «Охота» крепкое 8.1% 0.45 л",
+      "category": "beer",
+      "price": 150,
+      "image": "images/baltica3.jpg",
+      "alt": "Охота 0.45л пиво доставка Москва",
+      "desc": "Объём 0.45 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-шпатен-0-5-л-ee1426",
+      "name": "Пиво «Шпатен» 0.5 л",
+      "category": "beer",
+      "price": 300,
+      "image": "images/images.jpg",
+      "alt": "Шпатен 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-балтика-3-0-5-л-02d6ee",
+      "name": "Пиво «Балтика №3» 0.5 л",
+      "category": "beer",
+      "price": 150,
+      "image": "images/baltica3.jpg",
+      "alt": "Балтика №3 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-клинское-0-5-л-626299",
+      "name": "Пиво «Клинское» 0.5 л",
+      "category": "beer",
+      "price": 150,
+      "image": "images/klin.jpg",
+      "alt": "Клинское 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-хамовники-0-5-л-4a12ca",
+      "name": "Пиво «Хамовники» 0.5 л",
+      "category": "beer",
+      "price": 250,
+      "image": "images/hamovniki.jpg",
+      "alt": "Хамовники 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-staropramen-0-5-л-dfdf41",
+      "name": "Пиво Staropramen 0.5 л",
+      "category": "beer",
+      "price": 330,
+      "image": "images/images.jpg",
+      "alt": "Staropramen 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-leffe-blonde-0-5-л-a01a28",
+      "name": "Пиво Leffe Blonde 0.5 л",
+      "category": "beer",
+      "price": 450,
+      "image": "images/images1.jpg",
+      "alt": "Leffe Blonde 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-guinness-original-0-5-л-8c6f31",
+      "name": "Пиво Guinness Original 0.5 л",
+      "category": "beer",
+      "price": 490,
+      "image": "images/guiness.jpg",
+      "alt": "Guinness Original 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "пиво-budweiser-budvar-0-5-л-7be7d0",
+      "name": "Пиво Budweiser Budvar 0.5 л",
+      "category": "beer",
+      "price": 290,
+      "image": "images/Budweiser.jpg",
+      "alt": "Budweiser Budvar 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "живое-ермолино-1-л-7ebff5",
+      "name": "Живое «Ермолино» 1 л",
+      "category": "beer",
+      "price": 250,
+      "image": "images/zhivoe.jpg",
+      "alt": "Ермолино пиво доставка Москва",
+      "desc": "Объём 1 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "сидр-st-anton-0-5-л-8f8468",
+      "name": "Сидр «St. Anton» 0.5 л",
+      "category": "beer",
+      "price": 290,
+      "image": "images/sidr.jpg",
+      "alt": "St. Anton 0.5л пиво доставка Москва",
+      "desc": "Объём 0.5 л. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "лещ-вяленый-150-г-8667e1",
+      "name": "Лещ вяленый 150 г",
+      "category": "snacks",
+      "price": 392,
+      "image": "images/%D0%BB%D0%B5%D1%89.webp",
+      "alt": "Лещ вяленый 150г закуски доставка Москва",
+      "desc": "Крупный, жирный, к светлому пиву.",
+      "inStock": true
+    },
+    {
+      "id": "вобла-вяленая-100-г-e9be4e",
+      "name": "Вобла вяленая 100 г",
+      "category": "snacks",
+      "price": 266,
+      "image": "images/%D0%B2%D0%BE%D0%B1%D0%BB%D0%B0.jpg",
+      "alt": "Вобла вяленая 100г закуски доставка Москва",
+      "desc": "Объём 100 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "тарань-вяленая-100-г-eda16b",
+      "name": "Тарань вяленая 100 г",
+      "category": "snacks",
+      "price": 238,
+      "image": "images/%D1%82%D0%B0%D1%80%D0%B0%D0%BD%D1%8C.webp",
+      "alt": "Тарань вяленая 100г закуски доставка Москва",
+      "desc": "Объём 100 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "кольца-кальмара-сушёные-80-г-b48a72",
+      "name": "Кольца кальмара сушёные 80 г",
+      "category": "snacks",
+      "price": 294,
+      "image": "images/%D0%BA%D0%B0%D0%BB%D1%8C%D0%BC%D0%B0%D1%80.jpg",
+      "alt": "Кольца кальмара 80г закуски доставка Москва",
+      "desc": "Объём 80 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "креветки-сушёные-70-г-7f704b",
+      "name": "Креветки сушёные 70 г",
+      "category": "snacks",
+      "price": 322,
+      "image": "images/%D0%BA%D1%80%D0%B5%D0%B2%D0%B5%D1%82%D0%BA%D0%B8.jpg",
+      "alt": "Креветки сушёные 70г закуски доставка Москва",
+      "desc": "Объём 70 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "раки-варено-мороженые-500-г-155350",
+      "name": "Раки варено-мороженые 500 г",
+      "category": "snacks",
+      "price": 1190,
+      "image": "images/%D1%80%D0%B0%D0%BA%D0%B8.webp",
+      "alt": "Раки варено-мороженые 500г закуски доставка Москва",
+      "desc": "Объём 500 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "сухарики-кириешки-с-беконом-90-г-602772",
+      "name": "Сухарики «Кириешки» с беконом 90 г",
+      "category": "snacks",
+      "price": 91,
+      "image": "images/%D0%BA%D0%B8%D1%80%D0%B8%D0%B5%D1%88%D0%BA%D0%B8.webp",
+      "alt": "Кириешки 90г закуски доставка Москва",
+      "desc": "Объём 90 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "сухарики-воронцовские-с-чесноком-100-г-3d62e1",
+      "name": "Сухарики «Воронцовские» с чесноком 100 г",
+      "category": "snacks",
+      "price": 98,
+      "image": "images/%D0%B3%D1%80%D0%B5%D0%BD%D0%BA%D0%B8.webp",
+      "alt": "Воронцовские 100г закуски доставка Москва",
+      "desc": "Объём 100 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "сухарики-три-корочки-с-сыром-90-г-fbb4b3",
+      "name": "Сухарики «Три корочки» с сыром 90 г",
+      "category": "snacks",
+      "price": 95,
+      "image": "images/%D1%82%D0%B8%D1%80%D0%BA%D0%BE%D1%80%D0%BE%D1%87%D0%BA%D0%B8%D1%81%D0%B5%D0%BC%D0%B3%D0%B0.webp",
+      "alt": "Три корочки 90г закуски доставка Москва",
+      "desc": "Объём 90 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "арахис-жареный-солёный-150-г-b7fa80",
+      "name": "Арахис жареный солёный 150 г",
+      "category": "snacks",
+      "price": 168,
+      "image": "images/%D0%B0%D1%80%D0%B0%D1%85%D0%B8%D1%81%D0%B6%D0%B0%D1%80%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9.webp",
+      "alt": "Арахис жареный 150г закуски доставка Москва",
+      "desc": "Объём 150 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "фисташки-солёные-100-г-935f1b",
+      "name": "Фисташки солёные 100 г",
+      "category": "snacks",
+      "price": 392,
+      "image": "images/%D1%84%D0%B8%D1%81%D1%82%D0%B0%D1%88%D0%BA%D0%B8.webp",
+      "alt": "Фисташки солёные 100г закуски доставка Москва",
+      "desc": "Объём 100 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "кешью-жареный-с-солью-100-г-4952ad",
+      "name": "Кешью жареный с солью 100 г",
+      "category": "snacks",
+      "price": 448,
+      "image": "images/%D0%BA%D0%B5%D1%88%D1%8C%D1%8E.webp",
+      "alt": "Кешью жареный 100г закуски доставка Москва",
+      "desc": "Объём 100 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "чипсы-lays-с-солью-150-г-565bf6",
+      "name": "Чипсы Lays с солью 150 г",
+      "category": "snacks",
+      "price": 252,
+      "image": "images/%D0%BB%D0%B5%D0%B9%D1%81.webp",
+      "alt": "Lays с 150г закуски доставка Москва",
+      "desc": "Объём 150 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "чипсы-pringles-original-165-г-339160",
+      "name": "Чипсы Pringles Original 165 г",
+      "category": "snacks",
+      "price": 476,
+      "image": "images/%D0%BF%D1%80%D0%B8%D0%BD%D0%B3%D0%BB%D1%81.jpg",
+      "alt": "Pringles Original 165г закуски доставка Москва",
+      "desc": "Объём 165 г. Доставка по Москве 24/7.",
+      "inStock": true
+    },
+    {
+      "id": "оливки-зелёные-с-косточкой-300-г-095b1e",
+      "name": "Оливки зелёные с косточкой 300 г",
+      "category": "snacks",
+      "price": 350,
+      "image": "images/%D0%BE%D0%BB%D0%B8%D0%B2%D0%BA%D0%B8.jpg",
+      "alt": "Оливки зелёные 300г закуски доставка Москва",
+      "desc": "Объём 300 г. Доставка по Москве 24/7.",
+      "inStock": true
+    }
+  ]
+}
