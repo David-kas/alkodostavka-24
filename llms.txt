@@ -2,20 +2,20 @@
 
 > Круглосуточная доставка алкоголя и закусок на дом по Москве и Московской области. Каталог 2000+ позиций: водка, виски, коньяк, вино, пиво, закуски. Приём заказов 24/7, часто 20–40 минут по Москве. Только 18+.
 
-Сайт: https://alkodastavka.vercel.app/
+Сайт: https://alkodostavka24.vercel.app/
 Язык: русский (ru-RU)
 Регион: Москва, Московская область, Россия
 
 ## Основные разделы
 
-- [Главная](https://alkodastavka.vercel.app/): доставка алкоголя на дом, заказ 24/7
-- [Каталог с ценами](https://alkodastavka.vercel.app/catalog.html): водка, виски, коньяк, пиво, вино, закуски
-- [Контакты и заявка](https://alkodastavka.vercel.app/contacts.html): телефон, WhatsApp, Telegram, форма
-- [FAQ](https://alkodastavka.vercel.app/faq.html): ответы на частые вопросы
-- [Районы Москвы](https://alkodastavka.vercel.app/rayony.html): доставка по районам
-- [Станции метро](https://alkodastavka.vercel.app/metro/): доставка у метро
-- [Категории](https://alkodastavka.vercel.app/kategoria/): водка, виски, вино, пиво, коньяк, закуски
-- [Доставка ночью](https://alkodastavka.vercel.app/dostavka-nochyu-moskva.html): ночные заказы 24/7
+- [Главная](https://alkodostavka24.vercel.app/): доставка алкоголя на дом, заказ 24/7
+- [Каталог с ценами](https://alkodostavka24.vercel.app/catalog.html): водка, виски, коньяк, пиво, вино, закуски
+- [Контакты и заявка](https://alkodostavka24.vercel.app/contacts.html): телефон, WhatsApp, Telegram, форма
+- [FAQ](https://alkodostavka24.vercel.app/faq.html): ответы на частые вопросы
+- [Районы Москвы](https://alkodostavka24.vercel.app/rayony.html): доставка по районам
+- [Станции метро](https://alkodostavka24.vercel.app/metro/): доставка у метро
+- [Категории](https://alkodostavka24.vercel.app/kategoria/): водка, виски, вино, пиво, коньяк, закуски
+- [Доставка ночью](https://alkodostavka24.vercel.app/dostavka-nochyu-moskva.html): ночные заказы 24/7
 
 ## Условия
 
@@ -46,5 +46,5 @@
 
 ## Техническое
 
-- Sitemap: https://alkodastavka.vercel.app/sitemap.xml
-- Robots: https://alkodastavka.vercel.app/robots.txt
+- Sitemap: https://alkodostavka24.vercel.app/sitemap.xml
+- Robots: https://alkodostavka24.vercel.app/robots.txt
