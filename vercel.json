@@ -1,43 +1,4 @@
 {
-  "functions": {
-    "api/telegram.js": {
-      "includeFiles": "config/telegram.json"
-    },
-    "api/send-telegram.js": {
-      "includeFiles": "config/telegram.json"
-    }
-  },
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        { "type": "host", "value": "alkodastavka.vercel.app" }
-      ],
-      "destination": "https://alkodastavka.vercel.app/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [
-        { "type": "host", "value": "alkodastavka.vercel.app" }
-      ],
-      "destination": "https://alkodastavka.vercel.app/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [
-        { "type": "host", "value": "alkodastavka.vercel.app" }
-      ],
-      "destination": "https://alkodastavka.vercel.app/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/korporativ.html",
-      "destination": "/povod/korporativ/",
-      "permanent": true
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
