@@ -1,5 +1,4 @@
 {
-  "buildCommand": "npm run build",
   "rewrites": [
     { "source": "/api/telegram.php", "destination": "/api/telegram" },
     { "source": "/api/send-telegram.php", "destination": "/api/send-telegram" }
