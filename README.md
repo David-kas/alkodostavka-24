@@ -1,6 +1,6 @@
 # АЛКОдоставка — статический сайт + Vercel
 
-Сайт: **https://alkodastavka.vercel.app**
+Сайт: **https://alkodostavka24.vercel.app**
 
 ## Деплой на Vercel (из GitHub)
 
@@ -10,7 +10,7 @@
 4. В **Environment Variables** добавьте:
    - `TELEGRAM_BOT_TOKEN` — токен бота от [@BotFather](https://t.me/BotFather)
    - `TELEGRAM_CHAT_ID` — ID чата, куда приходят заявки
-5. Deploy. Домен `alkodastavka.vercel.app` привяжите в Settings → Domains.
+5. Deploy. Домен `alkodostavka24.vercel.app` привяжите в Settings → Domains.
 
 ## Форма заявки
 
