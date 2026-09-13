@@ -2,21 +2,8 @@ export const config = {
   runtime: 'edge',
 };
 
-const NEW_ORIGIN = 'https://alkodostavka24.vercel.app';
-const OLD_HOSTS = new Set([
-  'alkodastavka.vercel.app',
-  'alkodostavka24.online',
-]);
-
 export default function middleware(request) {
   const url = new URL(request.url);
-  const host = (url.hostname || '').toLowerCase();
-
-  if (OLD_HOSTS.has(host)) {
-    const target = new URL(url.pathname + url.search, NEW_ORIGIN);
-    return Response.redirect(target.toString(), 301);
-  }
-
   const userAgent = request.headers.get('user-agent') || '';
 
   const staticPathPattern = /^\/(favicon|apple-touch-icon|site\.webmanifest|favicon-.*\.png)/i;
